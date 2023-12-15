@@ -9,5 +9,8 @@ import Whisper from './components/Whisper.vue';
 </template>
 
 <style scoped>
-
+body {
+  overflow: auto;
+  overscroll-behavior: none;
+}
 </style>
